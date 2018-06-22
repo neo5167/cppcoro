@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>cppcoro.linux</id>
+    <version>1.0.0</version>
+    <authors>Anirudh Badam anbadam@microsoft.com</authors>
+    <owners>Anirudh Badam anbadam@microsoft.com</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/neo5167/cppcoro</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>cppcoro library and headers</description>
+    <releaseNotes>First cross platform cppcoro implementation with support for schedulers and timers</releaseNotes>
+    <copyright>Copyright (c) Microsoft 2018</copyright>
+    <tags>native coroutine cppcoro lightweight threads scheduler</tags>
+    <packageTypes><packageType name="Native" /></packageTypes>
+  </metadata>
+  <files>
+    <file src="../include/cppcoro/async_auto_reset_event.hpp" target="/include/cppcoro/async_auto_reset_event.hpp" />
+    <file src="../include/cppcoro/async_generator.hpp" target="/include/cppcoro/async_generator.hpp" />
+    <file src="../include/cppcoro/async_latch.hpp" target="/include/cppcoro/async_latch.hpp" />
+    <file src="../include/cppcoro/async_manual_reset_event.hpp" target="/include/cppcoro/async_manual_reset_event.hpp" />
+    <file src="../include/cppcoro/async_mutex.hpp" target="/include/cppcoro/async_mutex.hpp" />
+    <file src="../include/cppcoro/broken_promise.hpp" target="/include/cppcoro/broken_promise.hpp" />
+    <file src="../include/cppcoro/cancellation_registration.hpp" target="/include/cppcoro/cancellation_registration.hpp" />
+    <file src="../include/cppcoro/cancellation_source.hpp" target="/include/cppcoro/cancellation_source.hpp" />
+    <file src="../include/cppcoro/cancellation_token.hpp" target="/include/cppcoro/cancellation_token.hpp" />
+    <file src="../include/cppcoro/config.hpp" target="/include/cppcoro/config.hpp" />
+    <file src="../include/cppcoro/file.hpp" target="/include/cppcoro/file.hpp" />
+    <file src="../include/cppcoro/file_buffering_mode.hpp" target="/include/cppcoro/file_buffering_mode.hpp" />
+    <file src="../include/cppcoro/file_open_mode.hpp" target="/include/cppcoro/file_open_mode.hpp" />
+    <file src="../include/cppcoro/file_read_operation.hpp" target="/include/cppcoro/file_read_operation.hpp" />
+    <file src="../include/cppcoro/file_share_mode.hpp" target="/include/cppcoro/file_share_mode.hpp" />
+    <file src="../include/cppcoro/file_write_operation.hpp" target="/include/cppcoro/file_write_operation.hpp" />
+    <file src="../include/cppcoro/fmap.hpp" target="/include/cppcoro/fmap.hpp" />
+    <file src="../include/cppcoro/generator.hpp" target="/include/cppcoro/generator.hpp" />
+    <file src="../include/cppcoro/io_service.hpp" target="/include/cppcoro/io_service.hpp" />
+    <file src="../include/cppcoro/on_scope_exit.hpp" target="/include/cppcoro/on_scope_exit.hpp" />
+    <file src="../include/cppcoro/operation_cancelled.hpp" target="/include/cppcoro/operation_cancelled.hpp" />
+    <file src="../include/cppcoro/readable_file.hpp" target="/include/cppcoro/readable_file.hpp" />
+    <file src="../include/cppcoro/read_only_file.hpp" target="/include/cppcoro/read_only_file.hpp" />
+    <file src="../include/cppcoro/read_write_file.hpp" target="/include/cppcoro/read_write_file.hpp" />
+    <file src="../include/cppcoro/recursive_generator.hpp" target="/include/cppcoro/recursive_generator.hpp" />
+    <file src="../include/cppcoro/resume_on.hpp" target="/include/cppcoro/resume_on.hpp" />
+    <file src="../include/cppcoro/schedule_on.hpp" target="/include/cppcoro/schedule_on.hpp" />
+    <file src="../include/cppcoro/shared_task.hpp" target="/include/cppcoro/shared_task.hpp" />
+    <file src="../include/cppcoro/single_consumer_async_auto_reset_event.hpp" target="/include/cppcoro/single_consumer_async_auto_reset_event.hpp" />
+    <file src="../include/cppcoro/single_consumer_event.hpp" target="/include/cppcoro/single_consumer_event.hpp" />
+    <file src="../include/cppcoro/sync_wait.hpp" target="/include/cppcoro/sync_wait.hpp" />
+    <file src="../include/cppcoro/task.hpp" target="/include/cppcoro/task.hpp" />
+    <file src="../include/cppcoro/when_all.hpp" target="/include/cppcoro/when_all.hpp" />
+    <file src="../include/cppcoro/when_all_ready.hpp" target="/include/cppcoro/when_all_ready.hpp" />
+    <file src="../include/cppcoro/writable_file.hpp" target="/include/cppcoro/writable_file.hpp" />
+    <file src="../include/cppcoro/write_only_file.hpp" target="/include/cppcoro/write_only_file.hpp" />
+    <file src="../include/cppcoro/detail/continuation.hpp" target="/include/cppcoro/detail/continuation.hpp" />
+    <file src="../include/cppcoro/detail/lightweight_manual_reset_event.hpp" target="/include/cppcoro/detail/lightweight_manual_reset_event.hpp" />
+    <file src="../include/cppcoro/detail/linux.hpp" target="/include/cppcoro/detail/linux.hpp" />
+    <file src="../include/cppcoro/detail/unwrap_reference.hpp" target="/include/cppcoro/detail/unwrap_reference.hpp" />
+    <file src="../include/cppcoro/detail/when_all_awaitable.hpp" target="/include/cppcoro/detail/when_all_awaitable.hpp" />
+    <file src="../include/cppcoro/detail/win32.hpp" target="/include/cppcoro/detail/win32.hpp" />
+    <file src="../include/cppcoro/detail/win32_overlapped_operation.hpp" target="/include/cppcoro/detail/win32_overlapped_operation.hpp" />
+    <file src="../include/cppcoro/net/ipv4_address.hpp" target="/include/cppcoro/net/ipv4_address.hpp" />
+    <file src="../include/cppcoro/net/ipv4_endpoint.hpp" target="/include/cppcoro/net/ipv4_endpoint.hpp" />
+    <file src="../include/cppcoro/net/ipv6_address.hpp" target="/include/cppcoro/net/ipv6_address.hpp" />
+    <file src="../include/cppcoro/net/ipv6_endpoint.hpp" target="/include/cppcoro/net/ipv6_endpoint.hpp" />
+    <file src="../include/cppcoro/net/ip_address.hpp" target="/include/cppcoro/net/ip_address.hpp" />
+    <file src="../include/cppcoro/net/ip_endpoint.hpp" target="/include/cppcoro/net/ip_endpoint.hpp" />
+    <file src="../build/linux_x64_clang6.0.1_debug/lib/libcppcoro.a" target="/lib/libcppcoro.a"/>
+  </files>
+</package>
